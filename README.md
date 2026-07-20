@@ -1,14 +1,13 @@
 # SSSdatareader
 
-Ferramentas em Python para leitura estruturada e exportacao de dados de sonar
+Ferramentas em Python para leitura estruturada e exportação de dados de sonar
 de varredura lateral nos formatos EdgeTech JSF e XTF.
 
 O projeto torna a leitura dos datagramas reproduzivel, preservando campos
 brutos relevantes e exportando tabelas CSV ou ASCII. Ele se limita a leitura,
-decodificacao e exportacao dos registros, sem executar avaliacoes especificas
-de desempenho ou conformidade.
+decodificação e exportação dos registros.
 
-## Conteudo
+## Conteúdo
 
 ```text
 sss-datareader/
@@ -33,7 +32,7 @@ python -m pip install -r requirements.txt
 ```
 
 O leitor JSF utiliza apenas a biblioteca padrao do Python. O processamento de
-XTF e a exportacao XTF para ASCII utilizam `pyxtf`, `numpy`, `pandas` e
+XTF e a exportação XTF para ASCII utilizam `pyxtf`, `numpy`, `pandas` e
 `pyproj`.
 
 ## Uso
@@ -44,7 +43,7 @@ XTF e a exportacao XTF para ASCII utilizam `pyxtf`, `numpy`, `pandas` e
 python scripts/jsf_csv.py /caminho/pasta_jsf /caminho/pasta_saida
 ```
 
-Para cada arquivo JSF sao gerados, quando houver registros correspondentes:
+Para cada arquivo JSF são gerados, quando houver registros correspondentes:
 
 ```text
 <nome>.csv
@@ -53,7 +52,7 @@ Para cada arquivo JSF sao gerados, quando houver registros correspondentes:
 <nome>_mensagens.csv
 ```
 
-O arquivo principal contem os pings acusticos com os canais PORT e STBD
+O arquivo principal contem os pings acústicos com os canais PORT e STBD
 pareados por subsistema e numero do ping. As mensagens 2080 e 2090 sao
 exportadas separadamente para preservar os registros auxiliares.
 
@@ -74,20 +73,20 @@ definido.
 python scripts/export_ascii.py /caminho/pasta_dados /caminho/pasta_saida
 ```
 
-Essa exportacao e resumida e destina-se a inspecao tabular simples. Para uma
-extracao completa, utilize os conversores especificos JSF ou XTF.
+Essa exportação é resumida e destina-se a inspecao tabular simples. Para uma
+extração completa, utilize os conversores especificos JSF ou XTF.
 
 ## Reprodutibilidade
 
-Os hashes SHA-256 dos scripts publicados estao em `SHA256SUMS.txt`. Os hashes
-identificam o conteudo exato de cada versao e devem ser registrados quando o
+Os hashes SHA-256 dos scripts publicados estão em `SHA256SUMS.txt`. Os hashes
+identificam o conteudo exato de cada versão e devem ser registrados quando o
 script for usado em uma analise reproduzivel.
 
 O projeto nao inclui dados JSF, XTF, CSV, planilhas ou dados proprietarios de
 qualquer campanha. Dados de terceiros devem ser utilizados somente quando
 houver autorizacao para isso.
 
-## Citacao
+## Citação
 
 Consulte `CITATION.cff` para a citacao recomendada. O arquivo `.zenodo.json`
 fornece os metadados especificos usados pelo Zenodo para arquivar uma release.
@@ -99,14 +98,6 @@ Zenodo para gerar um DOI permanente. O DOI da versao arquivada deve ser
 acrescentado ao `CITATION.cff` e ao README depois que o Zenodo concluir o
 deposito.
 
-Fluxo recomendado:
+## Licença
 
-1. publique o repositorio no GitHub;
-2. crie a release `v0.1.0` a partir de um commit estavel;
-3. conecte o repositorio ao Zenodo e ative o arquivamento das releases;
-4. publique a release no GitHub;
-5. copie o DOI atribuido pelo Zenodo para a referencia da versao publicada.
-
-## Licenca
-
-Este projeto e distribuido sob a licenca MIT. Consulte o arquivo `LICENSE`.
+Este projeto é distribuido sob a licenca MIT. Consulte o arquivo `LICENSE`.
