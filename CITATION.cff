@@ -12,7 +12,7 @@ authors:
     family-names: "Guilherme da Silva"
     orcid: "https://orcid.org/0009-0000-8541-8745"
     email: agsgeo@proton.me
-version: "0.1.0"
+version: "0.1.1"
 date-released: "2026-07-20"
 license: MIT
 repository-code: "https://github.com/agsgeo/sss-datareader"
@@ -23,5 +23,4 @@ keywords:
   - underwater acoustics
   - sonar data processing
   - Python
-# After Zenodo archives the release, add the permanent DOI here:
-# doi: "10.5281/zenodo.XXXXXXXX"
+doi: "10.5281/zenodo.21460296"
