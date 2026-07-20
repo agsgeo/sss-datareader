@@ -88,15 +88,7 @@ houver autorizacao para isso.
 
 ## Citação
 
-Consulte `CITATION.cff` para a citacao recomendada. O arquivo `.zenodo.json`
-fornece os metadados especificos usados pelo Zenodo para arquivar uma release.
-Quando os dois arquivos estiverem presentes, o Zenodo usa o `.zenodo.json`
-para o registro da release.
-
-Apos a criacao de uma release no GitHub, o repositorio pode ser conectado ao
-Zenodo para gerar um DOI permanente. O DOI da versao arquivada deve ser
-acrescentado ao `CITATION.cff` e ao README depois que o Zenodo concluir o
-deposito.
+Consulte `CITATION.cff` para a citacao recomendada.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21460296.svg)](https://doi.org/10.5281/zenodo.21460296)
 
