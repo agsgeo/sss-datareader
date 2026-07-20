@@ -98,6 +98,8 @@ Zenodo para gerar um DOI permanente. O DOI da versao arquivada deve ser
 acrescentado ao `CITATION.cff` e ao README depois que o Zenodo concluir o
 deposito.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21460296.svg)](https://doi.org/10.5281/zenodo.21460296)
+
 ## Licença
 
 Este projeto é distribuido sob a licenca MIT. Consulte o arquivo `LICENSE`.
