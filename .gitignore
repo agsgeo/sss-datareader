@@ -1,0 +1,26 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Local data and generated exports
+*.jsf
+*.JSF
+*.xtf
+*.XTF
+*.csv
+*.xlsx
+*.xlsm
+*.txt
+!estrutura.txt
+!SHA256SUMS.txt
+!requirements.txt
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

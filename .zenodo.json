@@ -1,0 +1,22 @@
+{
+  "title": "SSSdatareader: EdgeTech JSF and XTF datagram readers",
+  "upload_type": "software",
+  "description": "Python tools for structured extraction of EdgeTech JSF and XTF side-scan sonar datagrams to CSV and ASCII tables. The project preserves relevant binary fields and auxiliary navigation records without including proprietary acquisition data or campaign-specific results.",
+  "creators": [
+    {
+      "name": "Guilherme da Silva, Adriano",
+      "orcid": "0009-0000-8541-8745"
+    }
+  ],
+  "version": "0.1.0",
+  "publication_date": "2026-07-20",
+  "license": "MIT",
+  "keywords": [
+    "side-scan sonar",
+    "EdgeTech JSF",
+    "XTF",
+    "underwater acoustics",
+    "sonar data processing",
+    "Python"
+  ]
+}

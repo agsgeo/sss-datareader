@@ -1,0 +1,12 @@
+sss-datareader/
+|-- scripts/
+|   |-- jsf_csv.py
+|   |-- xtf_csv.py
+|   `-- export_ascii.py
+|-- README.md
+|-- CITATION.cff
+|-- .zenodo.json
+|-- .gitignore
+|-- LICENSE
+|-- requirements.txt
+`-- SHA256SUMS.txt
